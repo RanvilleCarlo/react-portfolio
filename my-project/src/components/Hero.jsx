@@ -21,7 +21,7 @@ const Hero = () => {
                 {displayedText}
               </span>
             </div>
-            <p className="max-w-xl font-medium tracking-tighter text-xl pt-6">
+            <p className="my-2 max-w-xl py-8 font-semibold text-xl">
               {HERO_CONTENT}
             </p>
           </div>
