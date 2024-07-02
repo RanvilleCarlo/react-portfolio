@@ -15,13 +15,13 @@ const Hero = () => {
               Ranville Christopher Carlo
             </h1>
             <div className="flex text-4xl tracking-tight text-neutral-100 my-6">
-              <span className="pr-4">Im</span>
+              <span className="pr-4 pt-4">I&apos;m</span>
 
-              <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-bold tracking-tight">
+              <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-bold tracking-tight pt-4">
                 {displayedText}
               </span>
             </div>
-            <p className="max-w-xl font-medium tracking-tighter">
+            <p className="max-w-xl font-medium tracking-tighter text-xl pt-6">
               {HERO_CONTENT}
             </p>
           </div>
