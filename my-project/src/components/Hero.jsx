@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants";
 import ProfilePic from "../assets/pic.png";
-import useTypewriter from "./useTypewriter"; // Make sure to import the custom hook
+import useTypewriter from "./useTypewriter";
+ // Make sure to import the custom hook
 
 const Hero = () => {
   const titles = ["Full Stack Developer", "Data Analyst", "DevOps"];
@@ -11,7 +12,7 @@ const Hero = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
-            <h1 className="text-4xl lg:text-6xl font-medium text-neutral-100">
+            <h1 className="text-4xl lg:text-6xl font-bold text-neutral-100">
               Ranville Christopher Carlo
             </h1>
             <div className="flex text-4xl tracking-tight text-neutral-100 my-6">
